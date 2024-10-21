@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# QuickBite - Restaurant Search & Online Ordering with Payment Integration
 
-## Getting Started
+QuickBite is a full-stack web application that provides a seamless experience for searching restaurants, ordering food, and securely paying online. It features a fully functional checkout system with payment integration, along with user authentication and a responsive design for both mobile and desktop devices.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🏠 **Home Page** with easy navigation and search functionality.
+- 🔍 **Search Bar** available on all screen sizes for quick searches.
+- 👤 **User Authentication** using Clerk for sign-in, sign-up, and profile management.
+- 🛒 **Dynamic Cart System** where users can add or remove items and view their total.
+- 💳 **Checkout and Payment** with integrated payment gateway for secure online transactions.
+- 📱 **Mobile-Responsive Design** for smooth navigation on small screens.
+- ⚡ **Fast and Lightweight UI** built using React and Tailwind CSS.
+- 🎨 **Beautiful UI** with a modern and intuitive design.
+- 🔐 **Conditional Rendering** based on user authentication and cart state.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Check out the live demo of QuickBite: [QuickBite Demo](#) (Add your deployed link here)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **React.js** - A JavaScript library for building user interfaces.
+- **Next.js** - A React framework for server-side rendering and building static websites.
+- **Tailwind CSS** - A utility-first CSS framework for rapid UI development.
+- **Clerk** - A user management and authentication system.
+- **Lucide-React** - Icons for the UI components.
+- **Stripe (or any payment gateway)** - For secure payment processing.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation and Setup Instructions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/QuickBite.git
+   cd QuickBite
