@@ -76,3 +76,24 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.card{
+
+    margin-top: 100px;
+}
+
+.img{
+
+  border-radius: 30px;
+
+
+}
+
+
+
+.cards:hover {
+  transform: scale(1.05); 
+  transition: 1s linear;
+  
+}
+
